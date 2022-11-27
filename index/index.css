@@ -3,9 +3,24 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
     
 }
 
 .cartoon {
     font-family: 'Fredoka One', cursive;
+}
+
+#Renderizzamenti {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px ;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: black;
+    padding: 1%;
+    color: rgb(19, 15, 15);
 }
