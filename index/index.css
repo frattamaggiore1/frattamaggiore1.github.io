@@ -24,3 +24,73 @@ body {
     padding: 1%;
     color: rgb(19, 15, 15);
 }
+/* Per PC dal 1281 al 1920 */
+
+@media (max-width: 1920px) {
+    .Paronamica {
+        width: 1920px;
+        height: 300px;
+    }
+
+    .RF1 {
+        font-size: 90px;
+        margin-top: -320px;
+
+    }
+    
+}
+
+
+@media (max-width: 1280px) {
+    .Paronamica { 
+        width: 1280px;
+        height: 250px;
+        
+    }
+
+    .RF1 {
+        font-size: 65px;
+        margin-top: -280px;
+
+    }
+
+    
+}
+
+
+@media (max-width: 320px) {
+    .Paronamica { 
+        width: 320px;
+        height: 180px;
+        
+    }
+    
+    .RF1 {
+        font-size: 50px;
+        margin-top: -195px;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    .Paronamica { 
+        width: 480px;
+        height: 100px;
+        
+    }
+    
+    .RF1 {
+        font-size: 35px;
+        margin-top: -115px;
+
+    }
+
+}
+
+
+
+
+
+
+
