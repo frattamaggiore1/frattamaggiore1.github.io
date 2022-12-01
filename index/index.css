@@ -170,14 +170,14 @@ body {
 @media (max-width: 480px) {
     #Ren1 {
         position: fixed;
-        left: 10%;
+        left: 0%;
         bottom: 0%;
         
             
     }
         
         #Ren2 {
-        left: 25%;
+        left: 20%;
         position: fixed;
         bottom: 0%;
     
