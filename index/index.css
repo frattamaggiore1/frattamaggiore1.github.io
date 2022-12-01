@@ -84,7 +84,7 @@ body {
 @media (max-width: 1920px) {
     .render {
         position: fixed;
-        color: rgb(110, 190, 255);
+        color: purple;
         text-decoration: none; 
         font-size: 200%;
         font-family: 'Karla', sans-serif;
@@ -98,7 +98,7 @@ body {
 @media (max-width: 1280px) {
     .render {
         position: fixed;
-        color: rgb(110, 190, 255);
+        color: purple;
         text-decoration: none; 
         font-size: 200%;
         font-family: 'Karla', sans-serif;"
@@ -110,9 +110,9 @@ body {
 @media (max-width: 480px) {
     .render {
         position: fixed;
-        color: rgb(110, 190, 255);
+        color: purple;
         text-decoration: none; 
-        font-size: 200%;
+        font-size: 125%;
         font-family: 'Karla', sans-serif;"
 }
 
@@ -122,13 +122,124 @@ body {
 @media (max-width: 320px) {
     .render {
         position: fixed;
-            color: rgb(110, 190, 255);
+            color: purple;
             text-decoration: none; 
             font-size: 200%;
             font-family: 'Karla', sans-serif;"
 }
 
 }
+
+
+
+@media (max-width: 1920px) {
+    #Ren1 {
+    position: fixed;
+    left: 20%;
+    bottom: 0%;
+        
+        
+    }
+    
+    #Ren2 {
+    left: 40%;
+    position: fixed;
+    bottom: 0%;
+    
+    }
+    
+    #Ren3 {
+    left: 60%;
+    position: fixed;
+    bottom: 0%;
+    
+    
+}
+    
+    #Ren4 {
+    left: 80%;
+    postion: fixed;
+    bottom: 0%;
+    
+        
+    }
+    
+}
+    
+    
+@media (max-width: 480px) {
+    #Ren1 {
+        position: fixed;
+        left: 10%;
+        bottom: 0%;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 25%;
+        position: fixed;
+        bottom: 0%;
+    
+    }
+        
+        #Ren3 {
+        left: 50%;
+        position: fixed;
+        bottom: 0%;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 80%;
+        postion: fixed;
+        bottom: 0%;
+        
+            
+        }
+        
+}
+
+
+@media (max-width: 320px) {
+    #Ren1 {
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        font-size: 20px;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 0%;
+        position: fixed;
+        bottom: 10%;
+        font-size: 20px;
+    
+    }
+        
+        #Ren3 {
+        left: 0%;
+        position: fixed;
+        bottom: 5%;
+        font-size: 20px;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 0%;
+        postion: fixed;
+        bottom: 15%;
+        font-size: 20px;
+        
+            
+        }
+        
+}
+
 
 
 @media (max-width: 1920px) {
@@ -170,7 +281,7 @@ body {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 100%;
+    font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px ;
     border-style: outset;
@@ -183,36 +294,4 @@ body {
 
 
 
-@media (max-width: 1920px) {
-#Ren1 {
-    position: fixed;
-    left: 5%;
-    bottom: 0%;
-    
-    
-}
 
-#Ren2 {
-    left: 25%;
-    position: fixed;
-    bottom: 0%;
-
-}
-
-#Ren3 {
-    left: 50%;
-    position: fixed;
-    bottom: 0%;
-
-
-}
-
-#Ren4 {
-    left: 75%;
-    postion: fixed;
-    bottom: 0%;
-
-    
-}
-
-}
