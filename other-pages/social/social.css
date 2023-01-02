@@ -1,0 +1,306 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
+
+
+head {
+    background-color: rgb(233, 233, 233);
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 1920px) {
+
+    /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
+    #logo {
+    position: relative;
+    left: 1720px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+
+    /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
+    #logo {
+    position: relative;
+    left: 1720px;
+    }
+
+}
+
+
+
+
+
+.p1 {
+    border-style: outset;
+    border-radius: 5px;
+    border-color: black;
+    padding: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+@media (max-width: 1920px) {
+    #Ren1 {
+    position: fixed;
+    left: 20%;
+    bottom: 0%;
+        
+        
+    }
+    
+    #Ren2 {
+    left: 40%;
+    position: fixed;
+    bottom: 0%;
+    
+    }
+    
+    #Ren3 {
+    left: 60%;
+    position: fixed;
+    bottom: 0%;
+    
+    
+}
+    
+    #Ren4 {
+    left: 80%;
+    position: fixed;
+    bottom: 0%;
+    
+        
+    }
+    
+}
+    
+    
+@media (max-width: 480px) {
+    #Ren1 {
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 20%;
+        position: fixed;
+        bottom: 0%;
+    
+    }
+        
+        #Ren3 {
+        left: 50%;
+        position: fixed;
+        bottom: 0%;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 80%;
+        position: fixed;
+        bottom: 0%;
+        
+            
+        }
+        
+}
+
+
+@media (max-width: 320px) {
+    #Ren1 {
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        font-size: 20px;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 0%;
+        position: fixed;
+        bottom: 10%;
+        font-size: 20px;
+    
+    }
+        
+        #Ren3 {
+        left: 0%;
+        position: fixed;
+        bottom: 5%;
+        font-size: 20px;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 0%;
+        position: fixed;
+        bottom: 15%;
+        font-size: 20px;
+        
+            
+        }
+        
+}
+
+
+
+@media (max-width: 1920px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 200%;
+        font-family: 'Karla', sans-serif;
+        
+}
+
+}
+
+
+
+@media (max-width: 1280px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 200%;
+        font-family: 'Karla', sans-serif;
+}
+
+}
+
+
+@media (max-width: 480px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 125%;
+        font-family: 'Karla', sans-serif;
+}
+
+}
+
+
+@media (max-width: 320px) {
+    .render {
+        position: fixed;
+            color: black;
+            text-decoration: none; 
+            font-size: 200%;
+            font-family: 'Karla', sans-serif;
+            
+}
+
+}
+
+
+
+
+.fredoka {
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 1920px) {
+    
+    .PR1 { 
+    background-color: white;
+       color: black;
+       border-style: outset;
+       border-radius: 25px;
+       border-color: blue;
+       padding: 30px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 18px;
+       margin-left: 500px;
+       margin-right: 500px;
+       
+   }
+}
+
+@media (max-width: 1280px) {
+    
+    .PR1 { 
+    background-color: white;
+       color: black;
+       border-style: outset;
+       border-radius: 25px;
+       border-color: black;
+       padding: 30px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 18px;
+       margin-left: 300px;
+       margin-right: 300px;
+   }
+}
+
+@media (max-width: 480px) {
+    
+    .PR1 { 
+    background-color: white;
+       color: black;
+       border-style: outset;
+       border-radius: 25px;
+       border-color: black;
+       padding: 30px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 18px;
+       margin-left: 100px;
+       margin-right: 100px;
+   }
+}
+
+@media (max-width: 320px) {
+    
+        .PR1 { 
+        background-color: white;
+           color: black;
+           border-style: outset;
+           border-radius: 25px;
+           border-color: black;
+           padding: 30px;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 18px;
+           text-align: center;
+           margin-left: 40px;
+           margin-right: 40px;
+       }
+
+}
+
+@media (max-width: 1920px) {
+    /* TUTTI GLI EMBED SONO DA FIXARE ALLA FINE DELLA PAGINA */
+    .IGreparto {
+        position: relative;
+        bottom: 635px;
+        left: 1000px;
+        
+    }
+
+}
+
+
+
+
