@@ -28,7 +28,7 @@ body {
     /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
     #logo {
     position: relative;
-    left: 1720px;
+    left: 340px;
     }
 
 }
@@ -83,6 +83,41 @@ body {
     }
     
 }
+
+@media (max-width: 1280px) {
+    #Ren1 {
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+        
+        
+    }
+    
+    #Ren2 {
+    left: 20%;
+    position: fixed;
+    bottom: 0%;
+    
+    }
+    
+    #Ren3 {
+    left: 40%;
+    position: fixed;
+    bottom: 0%;
+    
+    
+}
+    
+    #Ren4 {
+    left: 60%;
+    position: fixed;
+    bottom: 0%;
+    
+        
+    }
+    
+}
+
     
     
 @media (max-width: 480px) {
@@ -236,6 +271,7 @@ body {
        font-size: 18px;
        margin-left: 500px;
        margin-right: 500px;
+       padding-bottom: 300px;
        
    }
 }
@@ -248,11 +284,12 @@ body {
        border-style: outset;
        border-radius: 25px;
        border-color: black;
-       padding: 30px;
+       padding: 20px;
        font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
-       margin-left: 300px;
-       margin-right: 300px;
+       margin-left: 0px;
+       margin-right: 850px;
+       padding-bottom: 300px;
    }
 }
 
@@ -264,11 +301,14 @@ body {
        border-style: outset;
        border-radius: 25px;
        border-color: black;
-       padding: 30px;
+       padding-left: 100px;
+       padding-right: 100px;
        font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
-       margin-left: 100px;
-       margin-right: 100px;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding-bottom: 300px;
+
    }
 }
 
@@ -286,21 +326,87 @@ body {
            text-align: center;
            margin-left: 40px;
            margin-right: 40px;
+           padding-bottom: 300px;
        }
 
 }
 
 @media (max-width: 1920px) {
-    /* TUTTI GLI EMBED SONO DA FIXARE ALLA FINE DELLA PAGINA */
+    
     .IGreparto {
         position: relative;
-        bottom: 635px;
-        left: 1000px;
+        bottom: 1200px;
+        left: 750px;
         
     }
 
 }
 
 
+
+
+/* CLASSE DEL POST INSTAGRAM DEL GRUPPO */
+ 
+@media (max-width: 1920px) {
+    .IGgruppo {
+        position: relative;
+        left: 750px;
+        bottom: 1300px;
+        
+        
+        
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .IGgruppo {
+        position: relative;
+        left: 30px;
+        bottom: 1330px;
+        
+        
+        
+    }
+
+}
+
+@media (max-width: 480px) {
+    .IGgruppo {
+        position: relative;
+        left: 30px;
+        bottom: 1365px;
+        
+        
+        
+    }
+
+}
+
+@media (max-width: 360px) {
+    .IGgruppo {
+        position: relative;
+        left: 30px;
+        bottom: 1365px;
+        
+        
+        
+    }
+
+}
+
+
+
+
+@media (max-width: 1920px) {
+    
+    .IGreparto {
+        position: relative;
+        bottom: 1200px;
+        left: 750px;
+        
+    }
+
+}
 
 
