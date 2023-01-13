@@ -1,0 +1,43 @@
+
+@media (max-width: 1920px) {
+        
+   body {
+    background-color: purple;
+   }
+
+}
+
+    @media (max-width: 1280px) {
+        
+    body {
+     background-color: hotpink;
+    }
+ 
+ }
+
+ @media (max-width:980px) {
+        
+    body {
+     background-color: red;
+    }
+ 
+ }
+ 
+ @media (max-width: 480px) {
+        
+    body {
+     background-color: orangered;
+    }
+ 
+ }
+
+ @media (max-width:360px) {
+        
+    body {
+     background-color: blue;
+    }
+ 
+ }
+
+
+

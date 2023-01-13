@@ -3,7 +3,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 233, 233);
     
 }
 
@@ -112,7 +112,7 @@ body {
         position: fixed;
         color: black;
         text-decoration: none; 
-        font-size: 125%;
+        font-size: 150%;
         font-family: 'Karla', sans-serif;
 }
 
@@ -127,7 +127,7 @@ body {
             font-size: 200%;
             font-family: 'Karla', sans-serif;
             
-}
+        }
 
 }
 
@@ -178,14 +178,14 @@ body {
     }
         
         #Ren2 {
-        left: 20%;
+        left: 22.3%;
         position: fixed;
         bottom: 0%;
     
     }
         
         #Ren3 {
-        left: 50%;
+        left: 45%;
         position: fixed;
         bottom: 0%;
         
@@ -205,7 +205,7 @@ body {
 
 @media (max-width: 320px) {
     #Ren1 {
-        position: fixed;
+        position: static;
         left: 0%;
         bottom: 0%;
         font-size: 20px;
@@ -215,7 +215,7 @@ body {
         
         #Ren2 {
         left: 0%;
-        position: fixed;
+        position: auto;
         bottom: 10%;
         font-size: 20px;
     
@@ -223,7 +223,7 @@ body {
         
         #Ren3 {
         left: 0%;
-        position: fixed;
+        position: auto;
         bottom: 5%;
         font-size: 20px;
         
@@ -232,12 +232,14 @@ body {
         
         #Ren4 {
         left: 0%;
-        position: fixed;
+        position: auto;
         bottom: 15%;
         font-size: 20px;
         
             
         }
+
+    
         
 }
 
@@ -251,9 +253,10 @@ body {
         font-size: 140%;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 300px ;
-        border-style: outset;
+        background-color: white;
+        border-style: groove;
         border-radius: 20px;
-        border-color: black;
+        border-color: white;
         padding: 1%;
         color: #080707;
     
@@ -293,6 +296,12 @@ body {
     color: rgb(19, 15, 15);
     }
 }
+
+
+
+
+
+
 
 
 
