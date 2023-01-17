@@ -28,10 +28,31 @@ body {
     /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
     #logo {
     position: relative;
-    left: 340px;
+    left: 1080px;
     }
 
 }
+
+@media (max-width: 480px) {
+
+    /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
+    #logo {
+    position: relative;
+    left: 280px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    /* IL PNG DEL LOGO DEL AGESCI NEL ANGOLO IN ALTO A SINISTRA */
+    #logo {
+    position: relative;
+    left: 210px;
+    }
+
+}
+
 
 
 
@@ -57,7 +78,7 @@ body {
     bottom: 0%;
         
         
-    }
+    } 
     
     #Ren2 {
     left: 40%;
@@ -287,8 +308,8 @@ body {
        padding: 20px;
        font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
-       margin-left: 0px;
-       margin-right: 850px;
+       margin-left: 300px;
+       margin-right: px;
        padding-bottom: 300px;
    }
 }
@@ -351,7 +372,7 @@ body {
     .IGgruppo {
         position: relative;
         left: 750px;
-        bottom: 1300px;
+        top: -100px;
         
         
         
@@ -362,8 +383,8 @@ body {
 @media (max-width: 1280px) {
     .IGgruppo {
         position: relative;
-        left: 30px;
-        bottom: 1330px;
+        left: 350px;
+        top: -1300px;
         
         
         
@@ -374,8 +395,8 @@ body {
 @media (max-width: 480px) {
     .IGgruppo {
         position: relative;
-        left: 30px;
-        bottom: 1365px;
+        left: 50px;
+        top: -1350px;
         
         
         
@@ -399,7 +420,6 @@ body {
 
 
 @media (max-width: 1920px) {
-    
     .IGreparto {
         position: relative;
         bottom: 1200px;
@@ -408,5 +428,28 @@ body {
     }
 
 }
+
+@media (max-width: 1280px) {
+    
+    .IGreparto {
+        position: relative;
+        top: -1200px;
+        left: 350px;
+        
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+    .IGreparto {
+        position: relative;
+        top: -1200px;
+        left: 50px;
+        
+    }
+
+}
+
 
 

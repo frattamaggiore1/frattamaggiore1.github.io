@@ -1,0 +1,308 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.fredoka {
+    font-family: 'Fredoka One', cursive;
+}
+
+
+/* Per PC dal 1281 al 1920 */
+
+@media (max-width: 1920px) {
+    .Paronamica {
+        width: 1860px;
+        height: 300px;
+    }
+
+    .RF1 {
+        font-size: 90px;
+        /* margin-top: -320px; */
+
+    }
+    
+}
+
+
+@media (max-width: 1280px) {
+    .Paronamica { 
+        width: 1300px;
+        height: 250px;
+        
+    }
+
+    .RF1 {
+        font-size: 65px;
+        /* margin-top: -280px; */ 
+
+    }
+
+    
+}
+
+
+@media (max-width: 320px) {
+    .Paronamica { 
+        width: 360px;
+        height: 180px;
+        
+    }
+    
+    .RF1 {
+        font-size: 50px;
+        /* margin-top: -195px; */
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    .Paronamica { 
+        width: 490px;
+        height: 200px;
+        
+    }
+    
+    .RF1 {
+        font-size: 35px;
+        /* margin-top: -115px; */
+
+
+    }
+
+}
+
+
+/* I bottoni per il renderizzamento */
+
+
+@media (max-width: 1920px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 200%;
+        font-family: 'Karla', sans-serif;
+        
+}
+
+}
+
+
+
+@media (max-width: 1280px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 200%;
+        font-family: 'Karla', sans-serif;
+}
+
+}
+
+
+@media (max-width: 480px) {
+    .render {
+        position: fixed;
+        color: black;
+        text-decoration: none; 
+        font-size: 150%;
+        font-family: 'Karla', sans-serif;
+}
+
+}
+
+
+@media (max-width: 320px) {
+    .render {
+        position: fixed;
+            color: black;
+            text-decoration: none; 
+            font-size: 200%;
+            font-family: 'Karla', sans-serif;
+            
+        }
+
+}
+
+
+
+@media (max-width: 1920px) {
+    #Ren1 {
+    position: fixed;
+    left: 20%;
+    top: 0%;
+        
+        
+    }
+    
+    #Ren2 {
+    left: 40%;
+    position: fixed;
+    top: 0%;
+    
+    }
+    
+    #Ren3 {
+    left: 60%;
+    position: fixed;
+    top: 0%;
+    
+    
+}
+    
+    #Ren4 {
+    left: 80%;
+    position: fixed;
+    top: 0%;
+    
+        
+    }
+    
+}
+    
+    
+@media (max-width: 480px) {
+    #Ren1 {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 22.3%;
+        position: fixed;
+        top: 0%;
+    
+    }
+        
+        #Ren3 {
+        left: 45%;
+        position: fixed;
+        top: 0%;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 80%;
+        position: fixed;
+        top: 0%;
+        
+            
+        }
+        
+}
+
+
+@media (max-width: 320px) {
+    #Ren1 {
+        position: static;
+        left: 0%;
+        top: 0%;
+        font-size: 20px;
+        
+            
+    }
+        
+        #Ren2 {
+        left: 0%;
+        position: auto;
+        top: 10%;
+        font-size: 20px;
+    
+    }
+        
+        #Ren3 {
+        left: 0%;
+        position: auto;
+        top: 5%;
+        font-size: 20px;
+        
+        
+        }
+        
+        #Ren4 {
+        left: 0%;
+        position: auto;
+        top: 15%;
+        font-size: 20px;
+        
+            
+        }
+
+    
+        
+}
+
+
+
+@media (max-width: 1920px) {
+        #Renderizzamenti {
+        text-align: center;
+        margin-left: 33%;
+        margin-right: 33%;
+        font-size: 140%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 300px ;
+        background-color: white;
+        border-style: groove;
+        border-radius: 20px;
+        border-color: white;
+        padding: 1%;
+        color: #080707;
+    
+    }
+}
+
+
+@media (max-width: 1280px) {
+    #Renderizzamenti {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px ;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: black;
+    padding: 1%;
+    color: rgb(19, 15, 15);
+    }
+}
+
+
+@media (max-width: 480px) {
+    #Renderizzamenti {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px ;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: black;
+    padding: 1%;
+    color: rgb(19, 15, 15);
+    }
+}
+
+
+
+
+
+
+
+
+
+
