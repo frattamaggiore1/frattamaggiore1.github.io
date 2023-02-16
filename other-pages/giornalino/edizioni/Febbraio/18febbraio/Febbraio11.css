@@ -1,10 +1,9 @@
-
-
+/* Preset da incollare in ogni edizione del giornalino*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(233, 233, 233);
-    
+     
 }
 
 .fredoka {
@@ -172,13 +171,9 @@ body {
 }
 
 
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
-/* SIC E LO STRISCIONE STRISCIA IL COBRA */
 
+
+/* Striscione*/
 @media (max-width: 1920px) {
     #sic {
         position: relative;
@@ -247,129 +242,6 @@ body {
     }
 }
 
-
-@media (max-width: 1920px) {
-    #sic_introduzione {
-        text-align: center;
-        font-size: 24px;
-        
-    }
-}
-
-
-
-
-
-
-
-/* color test settings */
-
-
-@media (max-width: 1920px) {
-        
-    .color {
-     background-color: purple;
-    }
- 
- }
- 
-     @media (max-width: 1280px) {
-         
-       .color {
-      background-color: hotpink;
-     }
-  
-  }
- 
-  @media (max-width: 980px) {
-         
-    .color {
-      background-color: purple;
-     }
-  
-  }
-
-  
-
-  
-  @media (max-width: 480px) {
-         
-    .color {
-      background-color: orangered;
-     }
-  
-  }
- 
-  @media (max-width:360px) {
-         
-    .color {
-      background-color: blue;
-     }
-  
-  }
-
-/* style bottone Ultima Edzione */
-
-
-@media (max-width: 1920px) {
-    
-    .UltimaEdizione {
-        text-decoration: none;
-          color: black; 
-          border-style: solid; 
-          border-radius: 20px; 
-          padding: 20px; 
-          background-color: white;
-          font-size: 36px;
-          position: absolute;
-          left: 450px;
-          top: 400px ;
-          font-family: 'Fredoka One', cursive;
-          border-color: rgb(220, 220, 220);}
-
-}
-
-@media (max-width: 980px) {
-    
-    .UltimaEdizione {
-        text-decoration: none;
-          color: black; 
-          border-style: solid; 
-          border-radius: 20px; 
-          padding: 20px; 
-          background-color: white;
-          font-size: 36px;
-          position: absolute;
-          left: 275px;
-          top: 400px ;
-          font-family: 'Fredoka One', cursive;
-          border-color: rgb(220, 220, 220);}
-
-}
-
-
-@media (max-width: 480px) {
-    
-    .UltimaEdizione {
-        text-decoration: none;
-          color: black; 
-          border-style: solid; 
-          border-radius: px; 
-          padding: 20px; 
-          background-color: white;
-          font-size: 24px;
-          position: absolute;
-          left: 100px;
-          top: 200px ;
-          font-family: 'Fredoka One', cursive;
-          border-color: rgb(220, 220, 220);}
-
-          
-}
-
-
-
-
 @media (max-width: 1920px) {
     .ListaEdizioni {
     text-decoration: none;
@@ -380,7 +252,7 @@ body {
      background-color: white;
      font-size: 36px;
      position: absolute;
-     left: 1000px;
+     left: 660px;
      top: 400px ;
      font-family: 'Fredoka One', cursive;
      border-color: rgb(220, 220, 220);
@@ -427,8 +299,17 @@ body {
 
 
 
- 
- 
- 
+@media (max-width: 1920px) {
+    .OLborder {
+        color: black;
+        background-color: rgba(119, 114, 39, 0.301);
+        text-align: center;
+        font-size: 24px;
+        border-style: solid;
+        border-color: gray;
+        margin-left: 600px;
+        margin-right: 600px;
+        padding: 5px;
 
-  
+    }
+}
