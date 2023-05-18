@@ -1,0 +1,67 @@
+@media (max-width: 480px) {
+
+    #sic {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #Homepage {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(160, 0, 160);
+        
+        background-color: rgb(224, 224, 224);
+        padding: 10px;
+
+        margin: 34%;
+        position: relative;
+        top: 100px;
+
+
+    }
+
+    #Lista {
+
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(56, 160, 16);
+        
+        background-color: rgb(224, 224, 224);
+        padding: 10px;
+
+        margin: 5%;
+
+
+    }
+
+
+    #Ultima {
+
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(189, 5, 5);
+        
+        background-color: rgb(224, 224, 224);
+        padding: 10px;
+
+        margin: -1%;
+        
+
+
+    }
+
+}
