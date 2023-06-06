@@ -1,0 +1,57 @@
+#sic {
+    position: relative;
+    top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    
+
+    
+    width: 300px;
+    
+
+
+}
+
+
+
+
+.ListaEdizioni {
+text-decoration: none;
+ color: black; 
+ border-style: solid; 
+ border-radius: 20px; 
+ padding: 20px; 
+ background-color: rgb(255, 252, 252);
+ font-size: 12px;
+ position: absolute;
+ left: 100px;
+ top: 1350px ;
+ font-family: 'Fredoka One', cursive;
+ border-color: rgb(220, 220, 220);
+}
+
+
+
+.OLborder {
+    color: black;
+    background-color: rgba(119, 114, 39, 0.301);
+    text-align: center;
+    font-size: 12px;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+
+}
+
+#Pfix {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+
+    
+}

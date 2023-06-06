@@ -1,0 +1,115 @@
+
+ 
+body{
+        background-color: rgb(68, 211, 208);
+    }
+    
+    /* header = intestazione */
+    
+
+    
+    
+    /* classe logo BP */
+    
+.center {
+        margin-right: auto; 
+        margin-left: auto;
+        width: 50%;
+        display: block;
+        position: relative;
+        top: -10%;
+    }
+
+
+@media (max-width: 1920px) {
+    
+    #icon1 {
+        font-size: 600%;
+        text-decoration: none;
+        color: #a6efee;
+        
+        margin-left: auto;
+        margin-right: 50%;
+        
+
+        top: -100px;
+        position: relative;
+        left: 35%;
+        
+        
+        
+        
+
+    }
+    
+    #icon2 {
+        font-size: 500%;
+        text-decoration: none;
+        color: #a6efee;
+        
+        margin-left: auto;
+        margin-right: 50%;
+        
+
+        top: -100px;
+        position: relative;
+        left: 35%;
+
+}
+
+    .header{
+        background-color: rgb(39, 112, 111);
+        margin: -10px;
+        margin-top: -11px;
+        padding: 0px;
+    }
+
+    #WebDeclaration {
+        border-style: inset; 
+        background-color: rgb(61, 189, 187); 
+        border-color: rgb(61, 189, 187); 
+        font-family: 'Poppins', sans-serif; 
+        font-size: 10px;"
+
+}
+
+#NewsP {
+    margin-left: 50%;
+    margin-top: -10%;
+    color: rgb(105, 86, 86);
+}
+
+#NewsP2 {
+    margin-left: 50%;
+    margin-top: -10%;
+    margin-right: 10%;
+    color: rgb(105, 86, 86);
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+ 
+    
+@media  (max-width: 1920px) {
+    .Button {
+        text-decoration: none;
+        color: white;
+        font-size: 290%;
+    
+        border-style: solid;
+        border-radius: 50%;
+    
+        padding: 1%;
+    
+        background-color: black;
+    
+    }
+}
+
+@media  (max-width: 480px) {
+    .Button {
+        text-decoration: none;
+        color: white;
+        font-size: 290%;
+    
+        border-style: solid;
+        border-radius: 50%;
+    
+        padding: 3%;
+    
+        background-color: black;
+    
+    }
+}
+
+
+@media (max-width:1920px) {
+
+
+
+
+#uno {
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 75%;
+    text-align: center;
+    top: 25%;
+
+}
+
+
+#due{
+
+    position: absolute;
+    margin-left: 75%;
+    margin-right: 25%;
+    text-align: center;
+    top: 25%;
+
+
+}
+
+}
+
+
+@media (max-width:480px) {
+
+
+    #uno {
+        position: absolute;
+        margin-left: 15%;
+        margin-right: 85%;
+        text-align: center;
+        top: 55%;
+    
+    }
+    
+    
+    #due{
+    
+        position: absolute;
+        margin-left: 70%;
+        margin-right: 15%;
+        text-align: center;
+        top: 55%;
+    
+    
+    }
+    
+}
+
